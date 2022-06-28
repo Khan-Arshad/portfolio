@@ -14,7 +14,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0f0f0f54] text-gray-300 z-50">
-      <div>LOGO</div>
+      <div className="hover:text-gray-900 duration-500 cursor:pointer">
+        <Link to="/">LOGO</Link>
+      </div>
       {/* menu */}
       <nav>
         <ul className="hidden sm:flex">
