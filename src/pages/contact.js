@@ -34,23 +34,20 @@ function Contact() {
       animate-gradient-x
     "
     >
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen z-10">
-        <p className="text-gray-700">Reach out to me for any enquiries</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#000000]">
+      <div className="w-8/12 max-w-[800px] mx-auto flex flex-col justify-center h-screen z-10">
+        <p className="text-gray-700] mx-auto">Reach out to me for any enquiries</p>
+        <h1 className="text-4xl mx-auto sm:text-5xl font-bold text-[#000000]">
           Arshad Khan
         </h1>
-        <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 ">
-          (+44) 075 7000 7297
-        </h2>
-        <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 ">
-          arshadk88@gmail.co.za
-        </h2>
-        <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 pb-4">
-          info@arshadk.co.za
-        </h2>
+        <a href="tel:+447570007297" className="text-2xl mx-auto sm:text-3xl font-bold text-gray-900 hover:text-gray-700">
+        0757 000 7297
+        </a>
+        <a href="mailto:arshadk88@gmail.com" className="text-2xl mx-auto sm:text-3xl font-bold text-gray-900 hover:text-gray-700 pb-4">
+          arshadk88@gmail.com
+        </a>
         <form
           onSubmit={onSubmit}
-          className="w-8/12 max-w-[800px] mx-auto flex flex-col justify-center z-10"
+          className="w-full sm:w-8/12 mx-auto flex flex-col justify-center z-10"
         >
           <input
             type="text"
@@ -58,7 +55,7 @@ function Contact() {
             placeholder="Your name"
             value={toSend.from_name}
             onChange={handleChange}
-            className="w-full px-4 py-2 mb-4 border-2 border-gray-700"
+            className="w-full px-4 py-2 mb-4 border-2 rounded-lg border-gray-700"
           />
           <input
             type="text"
@@ -66,7 +63,7 @@ function Contact() {
             placeholder="Your email"
             value={toSend.reply_to}
             onChange={handleChange}
-            className="w-full px-4 py-2 mb-4 border-2 border-gray-700"
+            className="w-full px-4 py-2 mb-4 border-2 rounded-lg border-gray-700"
           />
           <input
             type="text"
@@ -74,12 +71,12 @@ function Contact() {
             placeholder="Your message"
             value={toSend.message}
             onChange={handleChange}
-            className="w-full px-4 py-2 mb-4 border-2 border-gray-700"
+            className="w-full px-4 py-2 mb-4 border-2 rounded-lg border-gray-700"
           />
 
           <button
             type="submit"
-            className="w-full px-4 py-2 mb-4 border-2 border-gray-700"
+            className="w-full px-4 py-2 mb-4 border-2 rounded-lg border-gray-700"
           >
             Submit
           </button>
