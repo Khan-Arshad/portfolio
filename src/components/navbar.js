@@ -90,7 +90,8 @@ const Navbar = () => {
         <ul>
           <li className="w-[110px] h-[30px] flex justify-between items-center ml-[-75px] hover:ml-[-10px] duration-500 bg-[#007bb5]">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/arshad-khan-76aaa9b8/#experience"
+              target="_blank" rel="noreferrer"
               className="flex justify-between items-center w-full text-gray-300 text-[12px]"
             >
               LinkedIn <FaLinkedin size={15} />
@@ -98,7 +99,8 @@ const Navbar = () => {
           </li>
           <li className="w-[110px] h-[30px] flex justify-between items-center ml-[-75px] hover:ml-[-10px] duration-500 bg-[#000000]">
             <a
-              href="/"
+              href="https://github.com/Khan-Arshad?tab=repositories"
+              target="_blank" rel="noreferrer"
               className="flex justify-between items-center w-full text-gray-300 text-[12px]"
             >
               GitHub <FaGithub size={15} />
@@ -106,19 +108,20 @@ const Navbar = () => {
           </li>
           <li className="w-[110px] h-[30px] flex justify-between items-center ml-[-75px] hover:ml-[-10px] duration-500 bg-[#3b5998]">
             <a
-              href="/"
+              href="https://www.facebook.com/TheRealArshadKhan/"
+              target="_blank" rel="noreferrer"
               className="flex justify-between items-center w-full text-gray-300 text-[12px]"
             >
               Facebook <FaFacebook size={15} />
             </a>
           </li>
           <li className="w-[110px] h-[30px] flex justify-between items-center ml-[-75px] hover:ml-[-10px] duration-500 bg-[#dd4b39]">
-            <a
-              href="/"
-              className="flex justify-between items-center w-full text-gray-300 text-[12px]"
-            >
+           
+              
+              <Link onClick={handleClick} to="/contact" className="flex justify-between items-center w-full text-gray-300 text-[12px]">
               Email <HiOutlineMail size={15} />
-            </a>
+            </Link>
+           
           </li>
         </ul>
       </div>
