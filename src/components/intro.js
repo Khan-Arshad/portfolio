@@ -19,11 +19,11 @@ const Intro = () => {
         </div>
         <div>
           <p>
-            I am a digital designer and developer. Born in South africa, currently
+            I am a digital designer and developer. Born in South Africa, currently
             living in the U.K.<br/>
             I'm proficient in a range of design programs and  front-end development languages.
             <br/>
-            I have a passion for creating beautiful and functional websites. <br/>I am a self-taught developer and studied Graphic and Web Design at <a href="https://keyline.co.za/courses/graphic-design-and-web-design/" className="text-gray-700">Keyline Digital Design College</a> in South Africa. <br/>I have a passion for learning and constantly learning new things. I am always looking to improve my skills and knowledge. 
+            I have a passion for creating beautiful and functional websites. <br/>I am a self-taught developer and studied Graphic and Web Design at <a href="https://keyline.co.za/courses/graphic-design-and-web-design/" className="text-gray-700">Keyline Digital Design College</a> in South Africa. <br/>I have a passion for learning and constantly discovering new things. I am always looking to improve my skills and knowledge. 
             <br/>
             I am currently working on an 
             <a 

@@ -8,6 +8,7 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import Logo from '../logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +16,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0f0f0f54] text-gray-300 z-50">
       <div className="hover:text-gray-900 duration-500 cursor:pointer">
-        <Link to="/">LOGO</Link>
+        <Link to="/"><img src={Logo} alt="logo"
+        className="h-6 w-auto"
+        /></Link>
       </div>
       {/* menu */}
       <nav>
