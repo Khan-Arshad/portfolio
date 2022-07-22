@@ -2,7 +2,7 @@ import React from "react";
 import NXM from "../assets/web/NXM.PNG";
 import LinearCurve from "../assets/web/linearcurve.PNG";
 import Firewatch from "../assets/web/firewatch.PNG";
-import MyFlix from "../assets/web/myflix.PNG";
+import WeatherApp from "../assets/web/weather-app.PNG";
 import IssueTracker from "../assets/web/issue-tracker.PNG";
 import QuizApp from "../assets/web/quiz-app.PNG";
 
@@ -80,16 +80,16 @@ const Work = () => {
 
         {/* div */}
         <div
-          style={{ backgroundImage: `url(${MyFlix})` }}
+          style={{ backgroundImage: `url(${WeatherApp})` }}
           className="shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center mx-auto container content-div duration-500"
         >
           {/* Hover */}
           <div className="opacity-0 group-hover:opacity-100 duration-500">
             <span className="text-1xl font-bold text-white text-center py-2">
-              MyFlix - HTML Landing Page
+              Weather App - React JS
             </span>
             <div className="pt-8 text-center">
-              <a href="https://arshadk.co.za/portfolioItems/myflix/" target="_blank" rel="noreferrer">
+              <a href="https://weather-app-reactjs-ak.herokuapp.com/" target="_blank" rel="noreferrer">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#000] hover:bg-[#000] hover:text-white duration-500">
                   View Website
                 </button>
